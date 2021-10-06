@@ -11,6 +11,7 @@ import './assets/bs5/dist/css/bootstrap.min.css'
 import './assets/css/body.css'
 import './assets/css/navbar.css'
 import './assets/css/responsive.css'
+
 //Import JS
 import './assets/js/onscroll.js'
 
