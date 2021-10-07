@@ -1,3 +1,6 @@
+.judul{
+    font-family: neon;
+}
 .bg-custom{
     background-color: #fff !important;
     transition: 0.3s;
@@ -19,15 +22,15 @@
 .bg-active{
     background-color: transparent !important;
     transition: 0.3s;
-    color: #000 !important;
+    color: #F1991D !important;
 }
 .navbar{
     width: 100%;
 }
 .link-navbar{
-    color: #0083c0;
+    color: #fff;
     transition: 0.3s;
 }
 .link-navbar:hover{
-    color: #000;
+    color: #F1991D;
 }

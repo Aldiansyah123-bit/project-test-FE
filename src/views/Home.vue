@@ -1,54 +1,67 @@
 <template>
   <div class="home">
-    <img src="../assets/image/wave.svg" class="bg" width="100%">
-    <Navbar/>
-    <div class="container">
-        <br><br><br><br><br>
-        <div class="row mt-5 mb-5">
-            <div class="col-lg-12 gambar">
-                <img src="../assets/image/vector-content.png" alt="" width="100%">
-            </div>
-            <div class="col-sm-12 position-relative p-4 ">
-                <div class="position-absolute top-0 end-0 kiri">
-                  <h1 class="display-4 text-truncate tebel-sedang">Tempat yang</h1>
-                  <h1 class="display-4 text-truncate tebel-sedang">tepat untuk</h1>
-                  <h1 class="display-4 text-truncate tebel-sedang">mengembangkan</h1>
-                  <h1 class="display-4 text-truncate tebel-sedang">event anda</h1>
-                  <div class="desc mt-4">
-                      <p>Bergabung dengan lebih dari 100 vendor yang membantu para penikmat
-                        event yang terhubung dengan cava
-                      </p>
-                  </div>
-                  <div class="mt-5">
-                      <button class="button rounded-pill shadow tebel-sedang">Get Started</button>
-                      &nbsp;
-                  </div>                    
-                </div>
-                <img src="../assets/image/vector-content.png" alt="" class="img">
-            </div>
-            <!-- button scroll bawah  -->
-            <!-- <div class="wrapper">
-              <div class="bouncing-arrow">
-                  <i class="fas fa-chevron-down"></i>
-              </div>
-            </div> -->
-            <!-- button scroll atas  -->
-            <a href="#" class="up-icon">
-              <i class="fas fa-chevron-circle-up"></i>
-            </a>
+    <img src="../assets/image/bg.png" class="bg" width="100%" />
+    <Navbar />
+    <div class="container desktop">
+      <br /><br /><br /><br /><br /><br /><br />
+      <div class="row mt-5 mb-5">
+        <div class="col-sm-12 position-relative p-5">
+          <h1 class="display-1 text-center tebel-banget">Temukan Vendor</h1>
+          <h1 class="display-1 text-center tebel-banget">Wujudkan Acaramu</h1>
+          <div class="desc mt-4">
+            <p>
+              Kami akan membantu anda menghadirkan pengalaman yang tak
+              terlupakan dalam acara anda
+            </p>
+          </div>
+          <div class="mt-5 text-center">
+            <button class="button rounded-pill shadow tebel-sedang">
+              Mulai
+            </button>
+          </div>
         </div>
+      </div>
     </div>
+
+  <!-- Mobile  -->
+    <div class="container mobile">
+      <div class="row mt-5 mb-5">
+        <div class="col-lg-12 gambar">
+            <img src="../assets/image/home.svg" alt="" width="100%">
+        </div>
+        <div class="col-sm-12 position-relative p-4">
+          <div class="col-lg-12 text-center">
+          <img src="../assets/image/mobilelogo.png" alt="" width="50%">
+          </div>
+          <div class="ContentText mt-4">
+            <p>
+              Kami akan membantu anda menghadirkan pengalaman yang tak
+              terlupakan dalam acara anda
+            </p>
+          </div>
+          <div class="mt-5 text-center">
+            <button class="button shadow tebel-sedang">
+              Mulai
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <About/>
   </div>
+  
 </template>
 
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/Navbar.vue'
+import Navbar from "@/components/Navbar.vue";
+import About from "./About.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    Navbar
-  }
-}
+    Navbar,
+    About
+  },
+};
 </script>

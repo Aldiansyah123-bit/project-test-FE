@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
 body{
     position: relative;
 }
@@ -9,18 +12,39 @@ body{
 }
 .tebel-banget{
     font-weight: 900;
-    color: #0083c0;
+    color: #fff;
+    font-family: 'Poppins','sans-serif';
 }
 .tebel-sedang{
     font-weight: bold;
-    color: #0083c0;
+    color: #fff;
+    font-family: 'Poppins','sans-serif';
+}
+.text-sedang{
+    font-weight: bold;
+    color: rgb(39, 34, 34);
+    font-family: 'Ubuntu','sans-serif';
+}
+.text-kecil{
+    font-weight: bold;
+    color: rgb(109, 108, 108);
+    font-family: 'Ubuntu','sans-serif';
 }
 .desc{
-    max-width: 400px;
-    color: #0083c0;
+    max-width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Poppins','sans-serif';
+}
+.desc1{
+    max-width: 500px;
+    color: rgb(109, 108, 108);
+    font-size: 22px;
+    font-family: 'Poppins','sans-serif';
 }
 .button{
-    background-color: #00a5f1;
+    background-color: #f19e00;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -30,7 +54,7 @@ body{
     transition: 0.3s;
 }
 .button:hover{
-    background-color: #2f82ff;
+    background-color: #ba7c25;
     color: white;
 }
 .gambar{
@@ -48,27 +72,19 @@ body{
 .link:hover{
     color: #ba7c25;
 }
+.mobile{
+    display: none;
+}
 
-/* button croll atas */
-.up-icon{
-	position: fixed;
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	background: rgba(192,192,192,0.3);
-	bottom: 40px;
-	right: 50px;
-	text-decoration: none;
-	text-align: center;
-	line-height: 50px;
-	color:#ffffff;
-}
-.fa-chevron-circle-up{
-  font-size: 30px;
-  line-height: 50px;
-  color:#069adf;
-}
-.kiri{
+/* About */
+.tentang{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    padding:2rem;
+    background:#fff;
+    padding:5rem;
+    padding-top: 0rem;
+    margin-top: 13rem;
 }

@@ -2,8 +2,9 @@
     <nav class="navbar navbar-expand-lg navbar-light mt-3 fixed-top" id="navbar">
         <div class="container">
             <a href="#" class="navbar-brand">
-                <img src="../assets/image/icon.svg" height="50px">
+                <img src="../assets/image/logo.png" height="50px">
             </a>
+            <img src="../assets/image/seov.png" height="20px">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -11,22 +12,22 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="nav nav-pills">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active bg-active link-navbar tebel-sedang">Home &nbsp;&nbsp;</a>
+                        <a href="#" class="nav-link active bg-active link-navbar tebel-sedang">Beranda &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link link-navbar tebel-sedang">About &nbsp;&nbsp;</a>
+                        <a href="#" class="nav-link link-navbar tebel-sedang">Tentang &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link link-navbar tebel-sedang">Features &nbsp;&nbsp;</a>
+                        <a href="#" class="nav-link link-navbar tebel-sedang">Fitur &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link link-navbar tebel-sedang">Process &nbsp;&nbsp;</a>
+                        <a href="#" class="nav-link link-navbar tebel-sedang">Proses &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link link-navbar tebel-sedang">Benefit &nbsp;&nbsp;</a>
+                        <a href="#" class="nav-link link-navbar tebel-sedang">Keuntungan &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link link-navbar tebel-sedang">Contact &nbsp;&nbsp;</a>
+                        <a href="#" class="nav-link link-navbar tebel-sedang">Kontak &nbsp;&nbsp;</a>
                     </li>
                 </ul>
             </div>
