@@ -6,6 +6,9 @@
     transition: 0.3s;
     color: gray !important;
 }
+.bg-toska{
+    background-color: #00A0B6 !important;
+}
 .bg-custom:hover{
     background-color: #6884e7 !important;
     color: #fff !important;

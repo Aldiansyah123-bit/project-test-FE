@@ -48,6 +48,7 @@
       </div>
     </div>
     <About/>
+    <Services/>
   </div>
   
 </template>
@@ -56,12 +57,14 @@
 // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
 import About from "./About.vue";
+import Services from "./Services.vue"
 
 export default {
   name: "Home",
   components: {
     Navbar,
-    About
+    About,
+    Services
   },
 };
 </script>
