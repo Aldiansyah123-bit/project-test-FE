@@ -33,19 +33,19 @@
         <div class="bos mt-5">
           <h3 class="text-footer-header">Kontak</h3>
           <h4 class="display-7 mt-4 text-footer">
-            <img src="../assets/image/home.png" alt="" width="25px">     
+            <img src="../assets/image/home.png" alt="" width="25px"><i class="text-footer1"></i>     
             Madiun , Jawa Timur , Indonesia
           </h4>
           <h4 class="display-7 mt-4 text-footer">
-            <img src="../assets/image/email.png" alt="" width="25px">
+            <img src="../assets/image/email.png" alt="" width="25px"><i class="text-footer1"></i>
             seovindonesia@gmail.com
           </h4>
           <h4 class="display-7 mt-4 text-footer">
-            <img src="../assets/image/phone.png" alt="" width="25px"> 
+            <img src="../assets/image/phone.png" alt="" width="25px"><i class="text-footer1"></i> 
             +62 8XX-XXXX-XXXX
           </h4>
           <h4 class="display-7 mt-4 text-footer">
-            <img src="../assets/image/instagram.png" alt="" width="25px"> 
+            <img src="../assets/image/instagram.png" alt="" width="25px"><i class="text-footer1"></i>
             seovindonesia
           </h4>
         </div>

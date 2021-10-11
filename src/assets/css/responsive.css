@@ -67,6 +67,9 @@
     .row-contact{
         grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     }
+    .footer{
+        margin-top: 5rem;
+    }
 }
 @media screen and (max-width: 800px) {
     .img{
