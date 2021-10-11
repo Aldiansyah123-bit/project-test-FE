@@ -14,14 +14,14 @@
         </div>
 
         <div class="bos text-left mt-5">
-          <h3>Perusahaan</h3>
+          <h3 class="text-footer-header">Perusahaan</h3>
           <a href="#" class="link-footer text-footer">Home</a>
           <a href="#" class="link-footer text-footer">Kontak</a>
           <a href="#" class="link-footer text-footer">Tentang</a>
         </div>
 
         <div class="bos mt-5">
-          <h3>Kategori</h3>
+          <h3 class="text-footer-header">Kategori</h3>
           <a href="#" class="link-footer text-footer">MC</a>
           <a href="#" class="link-footer text-footer">Makeup Artist</a>
           <a href="#" class="link-footer text-footer">Sound System</a>
@@ -31,7 +31,7 @@
         </div>
 
         <div class="bos mt-5">
-          <h3>Kontak</h3>
+          <h3 class="text-footer-header">Kontak</h3>
           <h4 class="display-7 mt-4 text-footer">
             <img src="../assets/image/home.png" alt="" width="25px">     
             Madiun , Jawa Timur , Indonesia

@@ -320,6 +320,12 @@ body{
     font-size: 22px;
     font-family: 'Ubuntu','sans-serif';
 }
+.text-footer-header{
+    font-weight: bold;
+    color: #00A0B6;
+    font-size: 22px;
+    font-family: 'Ubuntu','sans-serif';
+}
 
 .credit{
     padding:2rem 1rem;
