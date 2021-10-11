@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="footer">
+    <section class="footer desktop">
       <div class="bos-container">
         <div class="bos">
           <img src="../assets/image/icon.svg" class="logo-footer" />

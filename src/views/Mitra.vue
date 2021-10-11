@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="mitra">
+    <section class="mitra desktop">
       <div class="container">
         <br /><br /><br />
         <div class="row mt-5 mb-5">

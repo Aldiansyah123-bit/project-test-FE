@@ -22,7 +22,7 @@
         </div>
       </div>
     </section> -->
-    <section class="vendor">
+    <section class="vendor desktop">
       <div class="pricing">
         <h1>Kenapa harus kami ?</h1>
         <h5 class="text-center text-vendor">

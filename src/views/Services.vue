@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="features">
+    <section class="features desktop">
       <div class="container">
         <h1>Kategori</h1>
         <h5 class="text-center text-kontak">
