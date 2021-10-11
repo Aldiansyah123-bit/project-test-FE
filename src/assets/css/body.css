@@ -48,6 +48,12 @@ body{
     font-size: 22px;
     font-family: 'Poppins','sans-serif';
 }
+.desc2{
+    max-width: 600px;
+    color: rgb(109, 108, 108);
+    font-size: 22px;
+    font-family: 'Poppins','sans-serif';
+}
 .button{
     background-color: #f19e00;
     border: none;
@@ -80,6 +86,15 @@ body{
 .mobile{
     display: none;
 }
+.beranda{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:5rem;
+    padding-top: 0rem;
+}
 
 /* About */
 .tentang{
@@ -88,67 +103,231 @@ body{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background:#fff;
+    background:rgb(247, 245, 245);
     padding:5rem;
     padding-top: 0rem;
-    margin-top: 13rem;
 }
 
 /* Service  */
 .features{
     min-height: 100vh;
-    text-align: center;
-    padding-top: 7rem;
-}
-
-.features .description{
-    padding:1rem 0;
-    margin:0 auto;
-    width:70rem;
-    color:#666;
-    font-size: 1.5rem;
-}
-
-.features .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    background:#fff;
+    padding:5rem;
+    padding-top: 0rem;
 }
-
-.features .box-container .box{
-    margin:2rem;
-    width:28rem;
-    z-index: 0;
+.features h1{
+    text-align: center;
+    font-weight: 600;
     position: relative;
+    font-family: 'Ubuntu','sans-serif';
+}
+.text-kontak{
+    color: rgb(109, 108, 108);
+    font-size: 22px;
+    font-family: 'Ubuntu','sans-serif';
+}
+.row-contact{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 30px;
+    margin-top: 5rem;
+}
+.contact{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+}
+.contact h6{
+    color:#354053;
+    font-family: 'Ubuntu','sans-serif';
+}
+.contact:hover{
+    background: #00A0B6;
+    color: #fff;
+    transform: scale(1.05);
 }
 
-.features .box-container .box::before{
-    content: '';
-    position: absolute;
-    top:32.5%; left:50%;
-    transform: translate(-50%, -50%) rotate(45deg);
-    background:var(--blue);
-    height: 10rem;
-    width: 10rem;
-    z-index: -1;
-    box-shadow: 0 0 0 1rem rgba(0, 0, 255, .1);
+/* Vendor  */
+.vendor{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #F9F9F9;
+    padding: 5rem;
+}
+.vendor h1{
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    font-family: 'Ubuntu','sans-serif';
 }
 
-.features .box-container .box i{
-    color:#fff;
-    font-size: 4.5rem;
-    margin:8rem 0;
+.heading{
+    text-align: center;
+    background: blue;
+    color:transparent;
+    --webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding:1rem;
 }
-
-.features .box-container .box h3{
-    color:#333;
+.pricing .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+.box{
+    flex:1 1 12rem;
+    margin:1rem;
+    padding:1rem;
+    background:#fff;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: 2rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.box:hover{
+    border:.2rem solid #00A0B6;
+}
+.price{
+    text-align: center;
+    font-weight: 600;
     font-size: 2rem;
+    position: relative;
+    font-family: 'Ubuntu','sans-serif';
+    top: 1rem;
+}
+.text-vendor{
+    color: rgb(109, 108, 108);
+    font-size: 19px;
+    font-family: 'Ubuntu','sans-serif';
+}
+.text-vendor1{
+    color: rgb(109, 108, 108);
+    font-size: 19px;
+    font-family: 'Ubuntu','sans-serif';
+    margin-top: 3rem;
 }
 
-.features .box-container .box p{
-    color:#666;
-    font-size: 1.2rem;
-    padding:1rem 0;
+/* Mitra  */
+.mitra{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 5rem;
 }
+.button1{
+    background-color: #00A0B6;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    transition: 0.3s;
+    font-family: 'Ubuntu','sans-serif';
+}
+.button1:hover{
+    background-color: #ba7c25;
+    color: white;
+    font-family: 'Ubuntu','sans-serif';
+}
+.text-mitra{
+    font-weight: bold;
+    color: rgb(39, 34, 34);
+    font-family: 'Ubuntu','sans-serif';
+}
+
+/* Footer */
+
+.footer{
+    background:#F9F9F9;
+}
+.logo-footer{
+    margin:1rem;
+    padding:1rem;
+    height: 80px;
+    background:#fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: 1rem;
+}
+
+.footer .bos-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bos{
+    flex:12rem;
+    margin:2rem;
+}
+
+.bos h3{
+    font-size: 2.5rem;
+    color:#00A0B6;
+}
+
+.bos p{
+    font-size: 1.5rem;
+    color:#858C9A;
+    padding:1rem 0;
+    font-family: 'Ubuntu','sans-serif';
+}
+
+.bos p i{
+    padding:0 .5rem;
+    color:#00A0B6;
+}
+
+.footer .bos-container .bos:nth-child(2){
+    text-align: center;
+}
+
+.link-footer{
+    font-size: 1.8rem;
+    display:block;
+    color:#858C9A;
+    text-transform: capitalize;
+    text-decoration: navajowhite;
+    padding:.3rem 0;
+    font-family: 'Ubuntu','sans-serif';
+}
+
+.link-footer:hover{
+    color: #00A0B6;
+    text-transform: capitalize;
+    text-decoration: navajowhite;
+}
+.text-footer{
+    color: #858C9A;
+    font-size: 22px;
+    font-family: 'Ubuntu','sans-serif';
+}
+
+.credit{
+    padding:2rem 1rem;
+    text-align: center;
+    background:#00A0B6;
+    color:#eee;
+    font-size: 2rem;
+    font-family: 'Ubuntu','sans-serif';
+}
+
 

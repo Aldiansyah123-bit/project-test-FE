@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Services from '../views/Services.vue'
+import Vendor from '../views/Vendor.vue'
+import Mitra from '../views/Mitra.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +17,16 @@ const routes = [
     path: '/services',
     name: 'Services',
     component: Services
+  },
+  {
+    path:'/vendor',
+    name: 'Vendor',
+    component: Vendor
+  },
+  {
+    path: '/mitra',
+    name: 'Mitra',
+    component: Mitra
   },
   {
     path: '/about',

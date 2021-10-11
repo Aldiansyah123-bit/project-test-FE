@@ -2,7 +2,7 @@
   <div class="home">
     <img src="../assets/image/bg.png" class="bg" width="100%" />
     <Navbar />
-    <div class="container desktop">
+    <div class="container desktop beranda">
       <br /><br /><br /><br /><br /><br /><br />
       <div class="row mt-5 mb-5">
         <div class="col-sm-12 position-relative p-5">
@@ -49,6 +49,9 @@
     </div>
     <About/>
     <Services/>
+    <Vendor/>
+    <Mitra/>
+    <Footer/>
   </div>
   
 </template>
@@ -57,14 +60,20 @@
 // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
 import About from "./About.vue";
-import Services from "./Services.vue"
+import Services from "./Services.vue";
+import Vendor from './Vendor.vue';
+import Mitra from './Mitra.vue';
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "Home",
   components: {
     Navbar,
     About,
-    Services
+    Services,
+    Vendor,
+    Mitra,
+    Footer
   },
 };
 </script>
