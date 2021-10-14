@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
+  <div class="home" id="home">
     <img src="../assets/image/bg.png" class="bg" width="100%" />
     <Navbar />
-    <div class="container desktop beranda">
+    <div class="container beranda">
       <br /><br /><br /><br /><br /><br /><br />
       <div class="row mt-5 mb-5">
         <div class="col-sm-12 position-relative p-5">
@@ -23,30 +23,6 @@
       </div>
     </div>
 
-  <!-- Mobile  -->
-    <div class="container mobile">
-      <div class="row mt-5 mb-5">
-        <div class="col-lg-12 gambar">
-            <img src="../assets/image/home.svg" alt="" width="100%">
-        </div>
-        <div class="col-sm-12 position-relative p-4">
-          <div class="col-lg-12 text-center">
-          <img src="../assets/image/mobilelogo.png" alt="" width="50%">
-          </div>
-          <div class="ContentText mt-4">
-            <p>
-              Kami akan membantu anda menghadirkan pengalaman yang tak
-              terlupakan dalam acara anda
-            </p>
-          </div>
-          <div class="mt-5 text-center">
-            <button class="button shadow tebel-sedang">
-              Mulai
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
     <About/>
     <Services/>
     <Vendor/>

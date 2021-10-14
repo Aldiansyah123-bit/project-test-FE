@@ -21,6 +21,7 @@ body{
     font-family: 'Poppins','sans-serif';
 }
 .text-sedang{
+    font-size: 5rem;
     font-weight: bold;
     color: rgb(39, 34, 34);
     font-family: 'Ubuntu','sans-serif';
@@ -101,10 +102,8 @@ body{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     background:rgb(247, 245, 245);
-    padding:5rem;
+    padding:2rem;
     padding-top: 0rem;
 }
 
@@ -116,8 +115,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     background:#fff;
-    padding:5rem;
-    padding-top: 0rem;
+    padding:2rem;
 }
 .features h1{
     text-align: center;
@@ -132,9 +130,12 @@ body{
 }
 .row-contact{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 50fr));
     grid-gap: 30px;
     margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .contact{
     text-align: center;
@@ -218,7 +219,7 @@ body{
 }
 .text-vendor1{
     color: rgb(109, 108, 108);
-    font-size: 19px;
+    font-size: 22px;
     font-family: 'Ubuntu','sans-serif';
     margin-top: 3rem;
 }
@@ -231,7 +232,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     background: #fff;
-    padding: 5rem;
+    padding: 2rem;
 }
 .button1{
     background-color: #00A0B6;
@@ -243,17 +244,33 @@ body{
     font-size: 19px;
     transition: 0.3s;
     font-family: 'Ubuntu','sans-serif';
+    text-transform: capitalize;
+    text-decoration: navajowhite;
+}
+.background-position{
+    position: absolute;
 }
 .button1:hover{
     background-color: #ba7c25;
     color: white;
+    text-transform: capitalize;
+    text-decoration: navajowhite;
     font-family: 'Ubuntu','sans-serif';
+}
+.button-posiition{
+    margin-top: 3rem;
+}
+.text-position{
+    margin-top: 3rem;
 }
 .text-mitra{
     font-weight: bold;
     color: rgb(39, 34, 34);
     font-family: 'Ubuntu','sans-serif';
+    margin-top: 3rem;
+    text-align: right;
 }
+
 
 /* Footer */
 
@@ -267,6 +284,9 @@ body{
     background:#fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: 1rem;
+}
+.logo-footer1{
+    height: 50px;
 }
 
 .footer .bos-container{
@@ -318,26 +338,68 @@ body{
 }
 .text-footer{
     color: #858C9A;
-    font-size: 22px;
+    font-size: 15px;
+    text-decoration: navajowhite;
     font-family: 'Ubuntu','sans-serif';
 }
-.text-footer1{
-    margin-left: .7rem;
+.margin-footer{
+    display: flex;
+    color: #858C9A;
+    font-size: 15px;
+    text-decoration: navajowhite;
+    font-family: 'Ubuntu','sans-serif';
+}
+.margin-kiri{
+    margin-left: 0.5rem;
+}
+.image-footer{
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+.desc-footer{
+    color: #858C9A;
+    font-size: 15px;
+    text-decoration: navajowhite;
+    font-family: 'Ubuntu','sans-serif';
 }
 .text-footer-header{
     font-weight: bold;
     color: #00A0B6;
-    font-size: 22px;
+    font-size: 35px;
     font-family: 'Ubuntu','sans-serif';
+    margin-top: 0.5rem;
 }
 
 .credit{
-    padding:2rem 1rem;
+    padding:1rem 1rem;
     text-align: center;
     background:#00A0B6;
     color:#eee;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Ubuntu','sans-serif';
 }
 
+/* Button Scroll  */
+.up-icon{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgba(246, 250, 3, 0.993);
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color:#00A0B6;
+}
+.fa-chevron-circle-up{
+    font-size: 30px;
+    line-height: 50px;
+    color:#00A0B6;
+}
+.fa-chevron-circle-up:hover{
+    color: black;
+}
 

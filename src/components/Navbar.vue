@@ -12,22 +12,22 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="nav nav-pills">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active bg-active link-navbar tebel-sedang">Beranda &nbsp;&nbsp;</a>
+                        <a href="#home" class="nav-link active bg-active link-navbar tebel-sedang">Beranda &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link link-navbar tebel-sedang">Tentang &nbsp;&nbsp;</a>
+                        <a href="#about" class="nav-link link-navbar tebel-sedang">Tentang &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link link-navbar tebel-sedang">Fitur &nbsp;&nbsp;</a>
+                        <a href="#servis" class="nav-link link-navbar tebel-sedang">Fitur &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link link-navbar tebel-sedang">Proses &nbsp;&nbsp;</a>
+                        <a href="#vendor" class="nav-link link-navbar tebel-sedang">Proses &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link link-navbar tebel-sedang">Keuntungan &nbsp;&nbsp;</a>
+                        <a href="#mitra" class="nav-link link-navbar tebel-sedang">Keuntungan &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link link-navbar tebel-sedang">Kontak &nbsp;&nbsp;</a>
+                        <a href="#kontak" class="nav-link link-navbar tebel-sedang">Kontak &nbsp;&nbsp;</a>
                     </li>
                 </ul>
             </div>

@@ -3,31 +3,13 @@
         display: none;
         width: 500px;
     }
-    .mobile{
-        display: block;
-    }
     .gambar{
         text-align: center;
-    }
-    .desktop{
-        display: none;
+        width: 500px;
     }
     .bg{
-        display: none;
-    }
-    .navbar{
-        display: none;
-    }
-    .tebel-banget{
-        font-weight: 900;
-        color: #00A0B6;
-        font-family: 'Neon',sans-serif;
-    }
-    .tebel-sedang{
-        font-weight: bold;
-        color: #00A0B6;
-        font-family: 'Poppins','sans-serif';
-        font-size: 5px;
+        min-width: 300vh;
+        min-height: 250vh;
     }
     .ContentText{
         max-width: 100%;
@@ -36,39 +18,76 @@
         font-size: 10px;
         font-family: 'Ubuntu','sans-serif';
     }
-    .button{
-        background-color: #00A0B6;
-        border: none;
-        color: white;
-        padding: 7px 100px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-        border-radius: 1rem;
-        transition: 0.3s;
-    }
-    .button:hover{
-        background-color: #193fbd;
-        color: white;
-    }
-    .tentang .image img{
-        width:80%;
-        height:auto;
-    }
-    .tentang{
-        display: none;
-    }
 }
 @media screen and (max-width: 768px) {
     .features .description{
         width:auto;
         padding:1rem;
     }
+    .gambar{
+        text-align: center;
+    }
+    .bg{
+        min-width: 300vh;
+        min-height: 250vh;
+    }
     .row-contact{
         grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     }
-    .footer{
-        margin-top: 5rem;
+    .tentang h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .tentang h5{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .tentang .desc1{
+        font-size: 1rem;
+        max-width: 100%;
+        text-align: center;
+    }
+    .text-mitra{
+        text-align: center;
+    }
+    .mitra h3{
+        font-size: 2rem;
+    }
+    .mitra .desc2{
+        font-size: 1rem;
+        max-width: 100%;
+        text-align: center;
+    }
+    .button1{
+        padding: 12px 20px;
+        font-size: 20px;
+    }
+    .button-posiition{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .text-position{
+        margin-top: 0.1rem;
+    }
+    .background-position{
+        position: relative;
+    }
+    .text-kontak{
+        font-size: 12px;
+    }
+    .text-vendor1{
+        font-size: 18px;
+    }
+    .up-icon{
+        width: 30px;
+        height: 30px;
+        bottom: 20px;
+	    right: 30px;
+        line-height: 30px;
+    }
+    .fa-chevron-circle-up{
+        font-size: 20px;
+        line-height: 30px;
     }
 }
 @media screen and (max-width: 800px) {
@@ -105,13 +124,14 @@
         min-width: 200vh;
     }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1024px) {
     .img{
         width: 300px;
         z-index: -1;
     }
     .bg{
         min-width: 300vh;
+        min-height: 200vh;
     }
     .text-sedang{
         font-weight: bold;
@@ -141,4 +161,42 @@
         max-width: 400px;
         font-size: 15px;
     }
+    .text-vendor1{
+        font-size: 12px;
+        margin-top: 2rem;
+    }
+    .price{
+        font-size: 1.5rem;
+    }
+    .box{
+        flex: 10rem;
+    }
+    .text-position{
+        margin-top: 0.1rem;
+    }
+    .logo-footer{
+        height: 50px;
+    }
+    .logo-footer1{
+        height: 30px;
+    }
+    .text-footer-header{
+        font-size: 26px;
+    }
+    .text-footer1{
+        margin-left: 0.1rem;
+    }
+    .bos{
+        flex:8rem;
+        margin:2rem;
+    }
+    /* .up-icon{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .fa-chevron-circle-up{
+        font-size: 20px;
+        line-height: 30px;
+    } */
 }
