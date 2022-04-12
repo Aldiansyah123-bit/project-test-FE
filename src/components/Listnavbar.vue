@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light mt-3 fixed-top" id="navbar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-toska">
         <div class="container">
             <a href="#" class="navbar-brand">
                 <img src="../assets/image/logo.png" height="50px">
@@ -9,25 +9,25 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end">
                 <ul class="nav nav-pills">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link active bg-active link-navbar tebel-sedang">Beranda &nbsp;&nbsp;</a>
+                        <a href="/" class="nav-link active bg-active link-navbar tebel-sedang">Beranda &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link link-navbar tebel-sedang">Tentang &nbsp;&nbsp;</a>
+                        <a href="/#about" class="nav-link link-navbar tebel-sedang">Tentang &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#services" class="nav-link link-navbar tebel-sedang">Fitur &nbsp;&nbsp;</a>
+                        <a href="/#services" class="nav-link link-navbar tebel-sedang">Fitur &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#vendor" class="nav-link link-navbar tebel-sedang">Proses &nbsp;&nbsp;</a>
+                        <a href="/#vendor" class="nav-link link-navbar tebel-sedang">Proses &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#mitra" class="nav-link link-navbar tebel-sedang">Keuntungan &nbsp;&nbsp;</a>
+                        <a href="/#mitra" class="nav-link link-navbar tebel-sedang">Keuntungan &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#kontak" class="nav-link link-navbar tebel-sedang">Kontak &nbsp;&nbsp;</a>
+                        <a href="/#kontak" class="nav-link link-navbar tebel-sedang">Kontak &nbsp;&nbsp;</a>
                     </li>
                 </ul>
             </div>
@@ -37,7 +37,8 @@
 
 <script>
 export default {
-    name: 'Navbar'
+    name : 'Listnavbar',
+
 }
 </script>
 

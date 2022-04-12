@@ -144,16 +144,20 @@ body{
     font-size: 14px;
     cursor: pointer;
     background: transparent;
+    text-decoration: navajowhite;
+    color: black;
 }
 .contact h6{
     font-weight: 550;
     margin-bottom: 8px;
     font-family: 'Ubuntu','sans-serif';
+    text-decoration: navajowhite;
 }
 .contact:hover{
     background: #00A0B6;
     color: #fff;
     transform: scale(1.05);
+    text-decoration: navajowhite;
 }
 
 /* Vendor  */
@@ -278,7 +282,7 @@ body{
     background:#F9F9F9;
 }
 .logo-footer{
-    margin:1rem;
+    margin-right: 1rem;
     padding:1rem;
     height: 80px;
     background:#fff;
@@ -358,6 +362,7 @@ body{
     height: 25px;
 }
 .desc-footer{
+    margin-top: 1rem;
     color: #858C9A;
     font-size: 15px;
     text-decoration: navajowhite;
@@ -403,3 +408,77 @@ body{
     color: black;
 }
 
+
+/* Loading  */
+.spinner {
+    position: absolute;
+    top: 15rem;
+    left: 47rem;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+}
+#loading {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+}
+.spinner-sector {
+    border-radius: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 15px solid transparent;
+    mix-blend-mode: overlay;
+}
+
+.spinner-text {
+    animation: loading-opacity 3s ease-in-out infinite;
+    font-size: 2em;
+}
+
+.spinner-sector-blue {
+    animation: rotate 2s ease-out infinite;
+    border-top: 15px solid rgb(0, 17, 255);
+}
+
+.spinner-sector-red {
+    animation: rotate 2.5s ease-in infinite;
+    border-top: 15px solid rgb(232, 240, 128);
+}
+
+.spinner-sector-green {
+    animation: rotate 1.5s ease-in-out infinite;
+    border-top: 15px solid rgb(248, 3, 3);
+}
+
+@keyframes rotate {
+    from { transform: rotate(0); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes loading-opacity {
+    0%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: .5;
+    }
+    50% {
+        opacity: .1;
+    }
+}

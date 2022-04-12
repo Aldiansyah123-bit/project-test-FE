@@ -8,8 +8,7 @@
         width: 500px;
     }
     .bg{
-        min-width: 300vh;
-        min-height: 250vh;
+        min-width: 100vh;
     }
     .ContentText{
         max-width: 100%;
@@ -24,12 +23,11 @@
         width:auto;
         padding:1rem;
     }
+    .bg{
+        min-width: 100vh;
+    }
     .gambar{
         text-align: center;
-    }
-    .bg{
-        min-width: 300vh;
-        min-height: 250vh;
     }
     .row-contact{
         grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
@@ -79,15 +77,17 @@
         font-size: 18px;
     }
     .up-icon{
-        width: 30px;
+        display: none;
+        /* width: 30px;
         height: 30px;
         bottom: 20px;
 	    right: 30px;
-        line-height: 30px;
+        line-height: 30px; */
     }
     .fa-chevron-circle-up{
-        font-size: 20px;
-        line-height: 30px;
+        display: none;
+        /* font-size: 20px;
+        line-height: 30px; */
     }
 }
 @media screen and (max-width: 800px) {
@@ -99,8 +99,8 @@
         display: block;
     }
     .bg{
-        min-width: 200vh;
-        /* min-height: 150vh; */
+        min-width: 100vh;
+        min-height: 450vh;
     }
 }
 @media screen and (max-width: 992px) {
@@ -109,7 +109,7 @@
         z-index: -1;
     }
     .bg{
-        min-width: 200vh;
+        min-width: 100vh;
     }
     .row-contact{
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -121,7 +121,7 @@
         z-index: -1;
     }
     .bg{
-        min-width: 200vh;
+        min-width: 100vh;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -130,7 +130,7 @@
         z-index: -1;
     }
     .bg{
-        min-width: 300vh;
+        min-width: 100vh;
         min-height: 200vh;
     }
     .text-sedang{
@@ -175,10 +175,10 @@
         margin-top: 0.1rem;
     }
     .logo-footer{
-        height: 50px;
+        height: 60px;
     }
     .logo-footer1{
-        height: 30px;
+        height: 28px;
     }
     .text-footer-header{
         font-size: 26px;
@@ -190,13 +190,4 @@
         flex:8rem;
         margin:2rem;
     }
-    /* .up-icon{
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-    }
-    .fa-chevron-circle-up{
-        font-size: 20px;
-        line-height: 30px;
-    } */
 }
